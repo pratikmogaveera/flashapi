@@ -1,0 +1,41 @@
+{
+    "name": "flashapi",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --turbo",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "deploy": "wrangler deploy --minify --name flashapi src/app/api/[[...route]]/route.ts"
+    },
+    "dependencies": {
+        "@radix-ui/react-dialog": "^1.0.5",
+        "@radix-ui/react-scroll-area": "^1.0.5",
+        "@upstash/redis": "^1.30.1",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.1",
+        "cmdk": "^1.0.0",
+        "hono": "^4.3.3",
+        "lucide-react": "^0.378.0",
+        "next": "14.2.3",
+        "react": "^18",
+        "react-dom": "^18",
+        "tailwind-merge": "^2.3.0",
+        "tailwindcss-animate": "^1.0.7"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "dotenv": "^16.4.5",
+        "dotenv-flow": "^4.1.0",
+        "eslint": "^8",
+        "eslint-config-next": "14.2.3",
+        "postcss": "^8",
+        "tailwindcss": "^3.4.1",
+        "tsx": "^4.9.3",
+        "typescript": "^5",
+        "wrangler": "^3.53.1"
+    }
+}
