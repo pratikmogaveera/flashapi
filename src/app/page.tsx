@@ -54,24 +54,25 @@ export default function Home() {
                     <motion.h1 variants={title} initial="hidden" animate="visible" className="text-5xl lg:text-7xl font-extrabold">
                         FastAPI
                     </motion.h1>
-                    <span><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24" height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={1}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="lucide lucide-zap w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]">
-                        <motion.path
-                            variants={icon}
-                            initial="hidden"
-                            animate="visible"
-                            d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
-                        >
-                        </motion.path>
-                    </svg>
+                    <span>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={1}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="lucide lucide-zap w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]">
+                            <motion.path
+                                variants={icon}
+                                initial="hidden"
+                                animate="visible"
+                                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+                            >
+                            </motion.path>
+                        </svg>
                     </span>
 
                 </div>

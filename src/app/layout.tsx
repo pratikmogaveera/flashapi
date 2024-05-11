@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "FlashAPI - A fast search API implementation.",
+    title: "FlashAPI",
     description: "A High-Performance API built using Next.js, Hono, Redis, and Cloudflare Workers.",
 };
 
